@@ -162,14 +162,14 @@ function App() {
                 </button>
               </div>
             </div>
-            <img src="..\public\Profile.png" alt="Profile" className="rounded-full w-58 h-58 hidden md:block" />
+            <img src="\Profile.png" alt="Profile" className="rounded-full w-58 h-58 hidden md:block" />
           </section>
         );
       case 'about':
         return (
           <section className={`${bgColor} p-6 min-h-[80vh]`}>
             <h1 className={`text-4xl font-bold ${darkMode ? 'text-cyan-400' : 'text-purple-500'}`}>About me</h1>
-            <img src="../public/Profile.png" alt="Profile" className="rounded-full mt-4 w-32 h-32" />
+            <img src="/Profile.png" alt="Profile" className="rounded-full mt-4 w-32 h-32" />
             <p className={`mt-4 ${textColor}`}>Hello, I’m Yash Malik, a MERN stack developer from Delhi with a strong foundation in full-stack web development. Currently pursuing my BCA degree, I’m committed to building innovative web applications and carving a successful career in the tech industry.</p>
             <p className={`mt-2 ${textColor}`}>As the next step in my journey, I’m focused on honing my web development skills by creating impactful full-stack projects.</p>
             <h2 className="text-2xl font-semibold text-purple-600 mt-4">💖 What I Love</h2>
