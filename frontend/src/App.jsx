@@ -8,7 +8,7 @@ function App() {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const API_URL = import.meta.env.VITE_API_URL || 'https://my-portfolio-backend.onrender.com/api';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://portfolio-backend-xlmu.onrender.com/api';
 
   useEffect(() => {
     if (activePage === 'projects') {
